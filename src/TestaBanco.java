@@ -3,9 +3,9 @@ public class TestaBanco {
 
         Cliente paulo = new Cliente(); // Instaciando classe
 
-        paulo.nome = "Paulo silveira ";
-        paulo.cpf = "123.456.789-10";
-        paulo.profissao = "Programador";
+        paulo.nome = " Paulo silveira ";
+        paulo.cpf = " 123.456.789-10 ";
+        paulo.profissao = " Programador ";
 
         Conta contaDoPaulo = new Conta();
         contaDoPaulo.deposita(100);
