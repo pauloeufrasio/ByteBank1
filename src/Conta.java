@@ -1,8 +1,8 @@
 public class Conta {
 
-    double saldo;
-    int agencia;
-    int numero;
+    private double saldo;
+    private int agencia;
+    private int numero;
     Cliente titular;  // Atributo titular do tipo classe
 
     public void deposita(double valor) {  // Metodo 1
@@ -26,6 +26,9 @@ public class Conta {
             return true;
         }
         return false;
+    }
+    public double pegaSaldo(){
+        return this.saldo;
     }
 
 }
